@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_css_bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="container">
+                <h1>Nome do restaurante</h1>
+                <nav>
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#sobre-o-espaco">Sobre o restaurante</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#eventos">Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cardapio">Nosso cardapio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Fale conosco</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="header">
+        
+        <section id="sobre-o-espaco" class="mb-5">
+            <div id="carrossel" class="carousel slide" data-bs-ride="slide">
+                <div class="carousel-inner">
+                    <div class="w-100 carousel-item active">
+                        <img src="https://placeholder.com/1920x600" alt="">
+                    </div>
+                    <div class="w-100 carousel-item">
+                        <img src="https://placeholder.com/1920x600" alt="">
+                    </div>
+                    <div class="w-100 carousel-item">
+                        <img src="https://placeholder.com/1920x600" alt="">
+                    </div>
+                    <div>
+                        <button type="button" class="carousel-control-prev" data-bs-target="#carrossel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button type="button" class="carousel-control-next" data-bs-target="#carrossel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carrossel" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#carrossel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carrossel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos">
+            <div class="container">
+                <div class="row pb-5">
+                    <div class="col-5">
+                        <img src="https://placeholder.com/500x350" alt="">
+                    </div>
+                    <div class="col-7">
+                        <h3>Sobre o restaurante</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci doloremque atque suscipit? Quasi impedit odio, alias nesciunt corporis rerum cupiditate, deserunt earum quidem, perspiciatis maiores? Accusamus aut consectetur voluptatum atque.</p>
+                        <h3>Sobre o espaco</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos cum voluptatibus expedita earum excepturi dolores beatae doloribus enim, accusantium, nostrum vero consequatur cumque at voluptatem, incidunt aspernatur delectus minima! Dolore?</p>
+                        <ul>
+                            <li>item 1</li>
+                            <li>item 2</li>
+                            <li>item 3</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <h3>Para todas as ocasioes</h3>
+                    <div class="col-4 mt-5">
+                        <img class="w-100" src="https://placeholder.com/500x350" alt="">
+                        <h5>texto aleatorio da img</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit libero iure architecto dignissimos ipsa accusantium corrupti repellat voluptate, alias, aspernatur delectus sequi, et quod aut. Consequatur culpa iure iste corrupti!</p>
+                    </div>
+        
+                    <div class="col-4 mt-5">
+                        <img class="w-100" src="https://placeholder.com/500x350" alt="">
+                        <h5>texto aleatorio da img</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit libero iure architecto dignissimos ipsa accusantium corrupti repellat voluptate, alias, aspernatur delectus sequi, et quod aut. Consequatur culpa iure iste corrupti!</p>
+                    </div>
+                    <div class="col-4 mt-5">
+                        <img class="w-100" src="https://placeholder.com/500x350" alt="">
+                        <h5>texto aleatorio da img</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit libero iure architecto dignissimos ipsa accusantium corrupti repellat voluptate, alias, aspernatur delectus sequi, et quod aut. Consequatur culpa iure iste corrupti!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cardapio">
+            <div class="container">
+                <h2>Nosso cardapio</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="tab">
+                            <div class="nav navbar-nav nav-tabs nav-pills">
+                                <button data-bs-toggle="tab" data-bs-target="#aba1" class="nav-link active" type="button">Bebidas nao alcoolicas</button>
+                                <button data-bs-toggle="tab" data-bs-target="#aba2" class="nav-link" type="button">Bebidas alcoolicas</button>
+                                <button data-bs-toggle="tab" data-bs-target="#aba3" class="nav-link" type="button">Entradas</button>
+                                <button data-bs-toggle="tab" data-bs-target="#aba4" class="nav-link" type="button">Pratos principais</button>
+                                <button data-bs-toggle="tab" data-bs-target="#aba5" class="nav-link" type="button">Sobremesas</button>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-8">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="aba1">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <img class="w-100" src="https://placeholder.com/200x120" alt="">
+                                        <h5>nome do prato</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, neque.</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <img class="w-100" src="https://placeholder.com/200x120" alt="">
+                                        <h5>nome do prato</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, neque.</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <img class="w-100" src="https://placeholder.com/200x120" alt="">
+                                        <h5>nome do prato</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, neque.</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <img class="w-100" src="https://placeholder.com/200x120" alt="">
+                                        <h5>nome do prato</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, neque.</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <img class="w-100" src="https://placeholder.com/200x120" alt="">
+                                        <h5>nome do prato</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, neque.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="aba2">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <img class="w-100" src="https://placeholder.com/200x120" alt="">
+                                        <h5>nome do prato</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, neque.</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <img class="w-100" src="https://placeholder.com/200x120" alt="">
+                                        <h5>nome do prato</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, neque.</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <img class="w-100" src="https://placeholder.com/200x120" alt="">
+                                        <h5>nome do prato</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, neque.</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <img class="w-100" src="https://placeholder.com/200x120" alt="">
+                                        <h5>nome do prato</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, neque.</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <img class="w-100" src="https://placeholder.com/200x120" alt="">
+                                        <h5>nome do prato</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, neque.</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <img class="w-100" src="https://placeholder.com/200x120" alt="">
+                                        <h5>nome do prato</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, neque.</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <img class="w-100" src="https://placeholder.com/200x120" alt="">
+                                        <h5>nome do prato</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, neque.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="aba3">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <img class="w-100" src="https://placeholder.com/200x120" alt="">
+                                        <h5>nome do prato</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, neque.</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <img class="w-100" src="https://placeholder.com/200x120" alt="">
+                                        <h5>nome do prato</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, neque.</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <img class="w-100" src="https://placeholder.com/200x120" alt="">
+                                        <h5>nome do prato</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, neque.</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <img class="w-100" src="https://placeholder.com/200x120" alt="">
+                                        <h5>nome do prato</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, neque.</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <img class="w-100" src="https://placeholder.com/200x120" alt="">
+                                        <h5>nome do prato</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, neque.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="aba4">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <img class="w-100" src="https://placeholder.com/200x120" alt="">
+                                        <h5>nome do prato</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, neque.</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <img class="w-100" src="https://placeholder.com/200x120" alt="">
+                                        <h5>nome do prato</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, neque.</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <img class="w-100" src="https://placeholder.com/200x120" alt="">
+                                        <h5>nome do prato</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, neque.</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <img class="w-100" src="https://placeholder.com/200x120" alt="">
+                                        <h5>nome do prato</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, neque.</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <img class="w-100" src="https://placeholder.com/200x120" alt="">
+                                        <h5>nome do prato</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, neque.</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <img class="w-100" src="https://placeholder.com/200x120" alt="">
+                                        <h5>nome do prato</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, neque.</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <img class="w-100" src="https://placeholder.com/200x120" alt="">
+                                        <h5>nome do prato</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, neque.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="aba5">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <img class="w-100" src="https://placeholder.com/200x120" alt="">
+                                        <h5>nome do prato</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, neque.</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <img class="w-100" src="https://placeholder.com/200x120" alt="">
+                                        <h5>nome do prato</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, neque.</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <img class="w-100" src="https://placeholder.com/200x120" alt="">
+                                        <h5>nome do prato</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, neque.</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <img class="w-100" src="https://placeholder.com/200x120" alt="">
+                                        <h5>nome do prato</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, neque.</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <img class="w-100" src="https://placeholder.com/200x120" alt="">
+                                        <h5>nome do prato</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, neque.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+        </section>
+        <section id="contato">
+            <div class="container">
+                <h2>Entre em contato</h2>
+                <div class="row">
+                    <div class="col-8">
+                        <form action="" class="form">
+                            <label for="" class="form-label">Seu nome</label>
+                            <input type="text" class="form-control">
+                            <label for="" class="form-label">Seu email</label>
+                            <input type="email" class="form-control">
+                            <label for="" class="form-label">Seu telefone(opcional)</label>
+                            <input type="text" class="form-control">
+                            <label for="" class="form-label">Sua mensagem</label>
+                            <textarea></textarea>
+        
+                        </form>
+                        <button type="button" class="btn btn-danger">Enviar</button>
+                    </div>
+                    <div class="col-4">
+                        <h6>redes sociais</h6>
+                        <img src="https://placeholder.com/30x30" alt="">
+                        <img src="https://placeholder.com/30x30" alt="">
+                        <img src="https://placeholder.com/30x30" alt="">
+                        <h6 class="mt-3">Endereco</h6>
+                        <p>Rua teste exemplo,n 156, bairro bootstrap - sao paulo-SP</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="lib/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_js_bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

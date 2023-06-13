@@ -1,0 +1,18 @@
+.carousel-item{
+    max-height: 600px;
+}
+
+.carousel-item img{
+    height: 600px;
+}
+
+header{
+    background-color: antiquewhite;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+section{
+    height: 100vh;
+}
